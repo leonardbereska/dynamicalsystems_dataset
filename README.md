@@ -7,7 +7,7 @@ This repository contains generated data from three dynamical systems:
 - Lotka-Volterra (LV)
  
 The code for generation is taken (and adapted) from https://github.com/yuan-yin/LEADS based on the paper:
-Yin, Yuan, Ibrahim Ayed, Emmanuel de Bézenac, Nicolas Baskiotis, and Patrick Gallinari. “LEADS: Learning Dynamical Systems That Generalize Across Environments.” ArXiv:2106.04546 [Cs, Stat], June 8, 2021. http://arxiv.org/abs/2106.04546.
+> Yin, Yuan, Ibrahim Ayed, Emmanuel de Bézenac, Nicolas Baskiotis, and Patrick Gallinari. “LEADS: Learning Dynamical Systems That Generalize Across Environments.” ArXiv:2106.04546 [Cs, Stat], June 8, 2021. http://arxiv.org/abs/2106.04546.
  
 
 For each dynamical system, we sample different 'environments', namely, different parameter values.
