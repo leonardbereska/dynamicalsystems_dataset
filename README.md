@@ -19,6 +19,8 @@ The Gray-Scott system has 32 x 32 spatial dimensions with 2 dimensions at each c
 The Lotka-Volterra system has 2 dimensions, and by default 10 environments. 
 
 In summary, 100 trajectories, 20 time steps each, 4/3/10 (NS/GS/LV) environments, with 32x32/32x32x2/2 dimensions (NS/GS/LV):
-- Navier-Stokes dataset: ns.pt: torch.Size([100, 4, 1, 20, 32, 32])
-- Gray-Scott dataset: gs.pt: torch.Size([100, 3, 2, 20, 32, 32])
-- Lotka-Volterra dataset: lv.pt: torch.Size([100, 10, 2, 20])
+- Navier-Stokes dataset: `ns.pt`: `torch.Size([100, 4, 1, 20, 32, 32])`
+- Gray-Scott dataset: `gs.pt`: `torch.Size([100, 3, 2, 20, 32, 32])`
+- Lotka-Volterra dataset: `lv.pt`: `torch.Size([100, 10, 2, 20])`
+
+The datasets can be loaded from pytorch files via, e.g., `tc.load('ns.pt')`.
