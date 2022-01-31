@@ -1,4 +1,4 @@
-from datasets import init_dataloaders
+from dataset_generation import init_dataloaders
 import torch as tc
 import numpy as np
 from matplotlib import pyplot as plt
